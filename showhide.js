@@ -2,6 +2,15 @@ var clicks = 0;
 var targets = 0;
 var hits = 0;
 
+// Darius Edit please check !
+
+function levelUP(){
+
+}
+
+
+
+
 function letsRock() {
     var theGo = document.getElementById("goGetIt");
     theGo.onclick = function () {
@@ -41,6 +50,8 @@ function setUpTargetsAndPlay(numberOfTargets, displayTimeMs) {
             $("td").off("click");
             $("table").off("click");
             $(".targetImg").remove();
+            // Darius Code Please
+            document.getElementById("levelUP").enabled = true;
         }
     });
 
